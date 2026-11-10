@@ -9,8 +9,9 @@
 - Integrante: Pedro Vital
 - Sistema: [LocalEats](https://local-eats-unisenac.vercel.app/)
 - Data da execução: 10/11/2026
-- Diretório da atividade no workspace: `atividade-04/`
-- Repositório Git da entrega: ainda não configurado neste workspace; após publicar, substituir este item pelo link do repositório e enviar o link direto deste arquivo no Blackboard.
+- Repositório Git: [QA-TB4](https://github.com/pedrov1tal/QA-TB4).
+- Diretório da atividade: [atividades/atividade-04](https://github.com/pedrov1tal/QA-TB4/tree/main/atividades/atividade-04).
+- Diretório no workspace: `atividades/atividade-04/`.
 
 ## 2. Integrante e responsabilidades
 
