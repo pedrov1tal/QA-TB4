@@ -49,12 +49,12 @@
 - ID: `TF01`.
 - Fluxo: filtrar restaurantes pela categoria “Italiana”. O HTML público apresenta o botão `Italiana` (`.filter-btn`) e os cards usam `.rest-card` e `.card-meta`.
 - Interação: clicar no botão “Italiana”.
-- Assertions: título da página; botão selecionado com classe `active`; existência de cards; culinária de todos os cards exibidos contém “Italiana”.
+- Assertions: (1) título esperado da página; (2) botão “Italiana” com classe `active`; (3) pelo menos um card visível; (4) culinária de todos os cards exibidos contém “Italiana”.
 - Não usa `time.sleep`; espera locators e condições do Playwright.
 - Arquivo e função: `tests/test_localeats.py::test_filtrar_restaurantes_da_categoria_italiana`.
 - Estado inicial: a aplicação redireciona visitantes sem sessão para o login. O teste prepara `userId` e `userName` no `localStorage` isolado do navegador; não cria uma conta nem grava dados de usuário.
 - Evidência: [screenshot do filtro](evidencias/filtro-categoria-italiana.png).
-- Resultado final: consultar o relatório de execução abaixo.
+- Resultado final: **Aprovado** — 4 testes aprovados e nenhum reprovado.
 
 ## 6. Resultado da execução
 
